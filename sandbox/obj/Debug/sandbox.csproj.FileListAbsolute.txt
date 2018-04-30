@@ -1,0 +1,7 @@
+C:\Users\dauser71\source\repos\sandbox\sandbox\bin\Debug\sandbox.exe.config
+C:\Users\dauser71\source\repos\sandbox\sandbox\bin\Debug\sandbox.exe
+C:\Users\dauser71\source\repos\sandbox\sandbox\bin\Debug\sandbox.pdb
+C:\Users\dauser71\source\repos\sandbox\sandbox\obj\Debug\sandbox.csprojResolveAssemblyReference.cache
+C:\Users\dauser71\source\repos\sandbox\sandbox\obj\Debug\sandbox.csproj.CoreCompileInputs.cache
+C:\Users\dauser71\source\repos\sandbox\sandbox\obj\Debug\sandbox.exe
+C:\Users\dauser71\source\repos\sandbox\sandbox\obj\Debug\sandbox.pdb
