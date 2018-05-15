@@ -11,7 +11,6 @@ namespace sandbox
     {
         static void Main(string[] args)
         {
-            InstagramCampaign(@"C:\Users\dauser71\source\repos\sandbox\sandbox\Files\InstagramIn.txt", @"C:\Users\dauser71\source\repos\sandbox\sandbox\Files\Instagrambonus.txt");
             string s = "";
         }
 
@@ -121,6 +120,17 @@ namespace sandbox
             int randomSeed = rnd.Next(0, int.MaxValue);
             int j = randomSeed % totalEntries;
             Console.WriteLine("Winner: " + randomDrawing[j]);
+        }
+
+        static double CountLines(string fileExt, string filePath)
+        {
+            double count = 0;
+            FileInfo[] fileList = new DirectoryInfo(filePath).GetFiles("*." + fileExt, SearchOption.AllDirectories);
+            foreach(FileInfo file in fileList)
+            {
+                count += File.ReadAllLines(file.Directory + "\\" + file.Name).Count();
+            }
+            return count;
         }
     }
 }
